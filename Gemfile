@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'faraday-retry', '~> 2.2'
 
 gem "github-pages", group: :jekyll_plugins
 
