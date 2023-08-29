@@ -1,6 +1,6 @@
 ---
 layout: blogs
-permalink: /blogs.html
+permalink: /blogs
 title: Blogs
 ---
 testing
