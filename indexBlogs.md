@@ -1,5 +1,5 @@
 ---
 layout: blogs
-permalink: /blogs
+permalink: /blogs.html
 title: Blogs
 ---
