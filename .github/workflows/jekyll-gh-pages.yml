@@ -43,6 +43,9 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - name: Deploy theme
+        uses: pages-themes/midnight@v0.2.0
+
 
   # Deployment job
   deploy:
