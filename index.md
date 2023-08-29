@@ -2,7 +2,7 @@
 layout: default
 title: Student Blog
 ---
-<link href="style.css" rel="stylesheet"></link>
+
 
 
 ## Build you Home Page here 
