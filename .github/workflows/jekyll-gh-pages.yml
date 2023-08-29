@@ -34,6 +34,7 @@ jobs:
         run: |
           pip install nbconvert
           # Add any other necessary package installations here
+          bundle install
       - name: Execute conversion script
         run: python scripts/convert_notebooks.py
       - name: Build with Jekyll
@@ -43,8 +44,6 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-      - name: Deploy theme
-        uses: pages-themes/midnight@v0.2.0
 
 
   # Deployment job
