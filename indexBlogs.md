@@ -1,7 +1,6 @@
 ---
 layout: blogs
-permalink: /student/blogs
+permalink: /blogs.html
 title: Blogs
 ---
-
 testing
