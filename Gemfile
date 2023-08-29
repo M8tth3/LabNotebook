@@ -1,8 +1,13 @@
 source "https://rubygems.org"
 
-gem 'faraday-retry', '~> 2.2'
 
 gem "github-pages", group: :jekyll_plugins
+
+gem 'github-pages', '~> 228'
+
+gem 'faraday-retry', '~> 2.2'
+
+gem 'jekyll', '~> 4.3', '>= 4.3.2'
 
 gem "webrick", "~> 1.7"
 
