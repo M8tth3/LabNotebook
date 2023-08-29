@@ -34,7 +34,8 @@ jobs:
         run: |
           pip install nbconvert
           # Add any other necessary package installations here
-          bundle install
+      - name: Install theme
+        run: bundle install      
       - name: Execute conversion script
         run: python scripts/convert_notebooks.py
       - name: Build with Jekyll
