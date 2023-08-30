@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+{%- include head.html -%}
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      {%- include header.html -%}
+    </header>
+
+
+    <section>
+      {{ content }}
+      {%- include carousel.html -%}
+    </section>
+
+  </div>
+</body>
+
+
+</html>
