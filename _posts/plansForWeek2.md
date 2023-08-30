@@ -3,9 +3,9 @@ toc: true
 comments: false
 layout: post
 title: Plans for week 2
-description: Example Blog!!!  This shows planning and notes from hacks.
+description: THE PLAN
 type: plans
-courses: { compsci: {week: 0} }
+courses: { compsci: {week: 2} }
 ---
 
 
