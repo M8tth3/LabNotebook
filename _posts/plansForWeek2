@@ -1,0 +1,16 @@
+---
+toc: true
+comments: false
+layout: post
+title: Plans for week 2
+description: Example Blog!!!  This shows planning and notes from hacks.
+type: plans
+courses: { compsci: {week: 0} }
+---
+
+
+- Make Jupyter Notebook Quiz
+- Create Java Calculator
+- Make a game
+- Add to blogs
+- transfer themes + about me over to new repo
