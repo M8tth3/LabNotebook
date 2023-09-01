@@ -5,15 +5,15 @@ title: The Student Blog
 
 <style>
     .Determination {
-        width: 200px; /* Set the width and height of the circle container */
-        height: 200px;
+        width: 400px; /* Set the width and height of the circle container */
+        height: 400px;
         overflow: hidden; /* Hide the overflow content outside the container */
         position: relative; /* Position the container relative to its parent */
 
         /* Position the container to the upper right corner */
         position: absolute;
-        top: 1000px;
-        left: 20px;
+        top: 600px;
+        right: 20px;
         border-radius: 0%; /* Create a circular shape */
     }
 
@@ -29,12 +29,6 @@ title: The Student Blog
 
 <img class="Determination" src="images/Determination.jpg" alt="GRAPEFRUIT">
 
-## Build you Home Page here 
-Hello guys
-lsfdsdfdssd
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
-
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+## This is my home page
+if you would like to access other pages simply click on one of these awesome links
+{%- include header.html -%}
