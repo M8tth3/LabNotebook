@@ -6,7 +6,7 @@ layout: post
 description: calculator
 type: hacks
 permalink: /techtalk/home_style
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 1} }
 ---
 
 <!-- 
@@ -29,6 +29,7 @@ HTML implementation of the calculator.
     Background is credited to Vanta JS and is implemented at bottom of this page
 -->
 <style>
+
   .calculator-output {
     /* calulator output 
       top bar shows the results of the calculator;
@@ -72,9 +73,9 @@ HTML implementation of the calculator.
       <div class="calculator-clear">A/C</div>
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
-      <div class="calculator-equals">=</div>
-      <!-- row 5 -->
       <div class="calculator-operation">^</div>
+      <!-- row 5 -->
+      <div class="calculator-equals">=</div>
   </div>
 </div>
 

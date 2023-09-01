@@ -11,17 +11,17 @@ courses: { compsci: {week: 1} }
 
 
 ## Week 1
-> Create a working github page with the following goals: 
-- Get a github website up and running
+### Create a working github page with the following goals: 
+- [x] Get a github website up and running
 
 ### Unique index.md file with personalized contents
-> The contents within this file should contain content about me and establish what the website is about
+- [x] The contents within this file should contain content about me and establish what the website is about
 
 ### Image carousel to have more user interaction within the website
-> User interaction a way to keep attention on the website and make it less boring. To do this, a goal for this week is to create an image carousel. It should be able to slide between images when the user clicks. 
+- [x] User interaction a way to keep attention on the website and make it less boring. To do this, a goal for this week is to create an image carousel. It should be able to slide between images when the user clicks. 
 
 ### Implement custom theme
-> A custom theme should be implemented that makes the website more personalized. It should not be a copy of the template provided by the teacher.  
+- [x] A custom theme should be implemented that makes the website more personalized. It should not be a copy of the template provided by the teacher.  
 
 
 
