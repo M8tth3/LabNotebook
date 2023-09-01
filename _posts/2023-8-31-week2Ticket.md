@@ -36,3 +36,4 @@ Some future plans for the lab notebook are:
 - Hacks we had
 - Errors 
 - How to actually run jupyter code on website?
+- How is calculator referencing assets if there is no line of code that references style.scss?
