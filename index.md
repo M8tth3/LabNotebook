@@ -27,7 +27,7 @@ title: The Student Blog
 
 </style>
 
-
+<img src="images/me.png">
 <img class="Determination" src="images/Determination.jpg" alt="GRAPEFRUIT">
 
 ## This is my home page
