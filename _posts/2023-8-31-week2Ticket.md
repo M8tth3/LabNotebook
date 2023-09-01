@@ -21,7 +21,7 @@ When syncing the public github website the main problems that we encountered whe
 >Working with the Java Calculator that was provided to us required us to figure out what files were needed in order for the calculator to function. To get the styling for the calculator we needed to reference the assets folder. At first we didn't and this led us to encounter a problem where only the numbers appeared in a vertical line. However, after importing the files needed such as the assets file or the navhome.html file which was mentioned at the top of the calculator source code, the calculator functioned. 
 >There were a few problems that presented itself, the first was the rounding. We noticed that the code rounded the result whenever a decimal was involved, however if you want a more accurate calculator, you don't want to round. After parsing through the code we realized that there was a line that said parseInt, this rounds the number to the nearest integer which is not what we want. So by changing the line to parseFloat fixed the code. 
 ## Making a game
-Tron game
+> Integrated snake game and slightly personalized with color. In the future I would like to figure out how to make the color of the snake and apple different. <- cant do currently because they both use the "active dot" so the color stays the same for all active dots. 
 ## Future plans for lab notebook
 Some future plans for the lab notebook are:
 - To integrate a scrum board to make it easier to create plans
