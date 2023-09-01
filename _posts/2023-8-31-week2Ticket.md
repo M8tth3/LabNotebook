@@ -27,3 +27,12 @@ Some future plans for the lab notebook are:
 - To integrate a scrum board to make it easier to create plans
 - Further personalizing our hacks
 - Making something that is personally useful(e.g. list of polyatomic ions for chemistry)
+
+
+
+# Live Review Prep
+
+- What we did
+- Hacks we had
+- Errors 
+- How to actually run jupyter code on website?
