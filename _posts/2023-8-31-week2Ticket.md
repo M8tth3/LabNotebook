@@ -18,22 +18,12 @@ When syncing the public github website the main problems that we encountered whe
 - Links for Home, CompSci, and every other tab did not work. The error said that the "Error 404: File did not exist"
     We learned that this problem was due to an issue with the baseurl. The baseurl was set to "student" however the project name was different, so whenever we tried to click on a tab it would start with "/student/." To fix this we went to the _config.yml file and changed the baseurl to our project name. However, it still didn't work because there were multiple links in many html files that linked it to the /student url rather than our project name. After changing all of the urls, the tabs were able to function. 
 ## Creating a Java Calculator
-ERROR With decimals, rounded down whenever there was decimal.
-Changed to parse float
+>Working with the Java Calculator that was provided to us required us to figure out what files were needed in order for the calculator to function. To get the styling for the calculator we needed to reference the assets folder. At first we didn't and this led us to encounter a problem where only the numbers appeared in a vertical line. However, after importing the files needed such as the assets file or the navhome.html file which was mentioned at the top of the calculator source code, the calculator functioned. 
+>There were a few problems that presented itself, the first was the rounding. We noticed that the code rounded the result whenever a decimal was involved, however if you want a more accurate calculator, you don't want to round. After parsing through the code we realized that there was a line that said parseInt, this rounds the number to the nearest integer which is not what we want. So by changing the line to parseFloat fixed the code. 
 ## Making a game
 Tron game
 ## Future plans for lab notebook
-
-
-> Update Blog to contain all hacks.  
-- Reviewed with Pair.  Discuss/Show evidence.
-- Discuss laptop, cloud computer.
-- Discuss tools setup and troubles.
-- Show personal blog / home page.
-- Show how you are maintaining notes, answering hacks, and showing tangibles.  
-- How have you learned Markdown, HTML, CSS, JavaScript.
-- Show Jupyter Notebooks and how you have added and organized them in the blog.
-- Show evidence of using Slack Account, show app installed on Laptop and/or phone.  Show awared of #annoncements, #general, #coding.
-- Run make commands to build and test blog locally, before pushing changes to GitHub pages.
-- Discuss GitHub Account, show ability to push/pull changes from VSCode.
-- Discuss development on Themes, show how you plan to organized lab notebook.
+Some future plans for the lab notebook are:
+- To integrate a scrum board to make it easier to create plans
+- Further personalizing our hacks
+- Making something that is personally useful(e.g. list of polyatomic ions for chemistry)
