@@ -15,6 +15,7 @@ title: The Student Blog
         top: 600px;
         right: 20px;
         border-radius: 0%; /* Create a circular shape */
+        border: 2px solid #00717f;
     }
 
     .Determination img {
