@@ -1,0 +1,8 @@
+@import "{{ site.theme }}";
+
+
+#tron {
+    border: 1px solid #777;
+    outline: 1px solid #333;
+    outline-offset: 5px;
+}
