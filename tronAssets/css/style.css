@@ -1,6 +1,10 @@
 @import "{{ site.theme }}";
 
-
+body {
+    background-image: url("/LabNotebook/images/tron.jpg");
+    background-position: 50%, 100%;
+    color:#6FE2E2
+}
 #tron {
     border: 1px solid #777;
     outline: 1px solid #333;

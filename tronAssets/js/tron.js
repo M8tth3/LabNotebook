@@ -27,6 +27,7 @@ Player.allInstances = [];
 let p1 = new Player(unit * 6, unit * 6, "#75A4FF");
 let p2 = new Player(unit * 43, unit * 43, "#f4af2d");
 
+
 function setKey(key, player, up, right, down, left) {
     switch (key) {
     case up:
