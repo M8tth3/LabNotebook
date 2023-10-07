@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="/LabNotebook/souls/css/style.css">
+<style>
+    html{
+        overflow: hidden;
+    }
+    .titleScreen
+    {
+        text-align:center;
+        color: white;
+        height: 100%;
+    }
+    .container
+    {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;/* Vertically center the child */
+        top: 50px;
+    }
+    #title
+    {
+        display: none;
+    }
+    .button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        text-align: center;
+        font-family: "Garamond", Times, serif;
+        font-size: 18px;
+    }
+    .button:hover{
+        color: orange;
+    }
+    .introMessage
+    {
+        font-family: "Garamond", Times, serif;
+        position: relative;
+        white-space: nowrap;
+        margin: 0 auto;
+        font-size: 130%;
+        overflow: hidden;
+        border-right: 2px solid;
+        color: white;
+    }
+    #loadTerminalSouls
+    {
+        display: "block";
+    }
+    #intro
+    {
+        display: "block";
+    }
+    .anim-typewriter{
+        animation: typewriter 4s steps(44) 1s 1 normal both,
+            blinkTextCursor 500ms
+        steps(44) infinite normal;
+    }
+    #paragraph
+    {
+        display:none;
+        font-family: "Garamond", Times, serif;
+        text-align: center;
+    } 
+    #startParagraph
+    {
+        display:none;
+        font-family: "Garamond", Times, serif;
+        text-align: center;
+    }  
+
+    @keyframes typewriter{
+        from{width: 0;}
+        to{width: 45em;}
+    }
+    @keyframes blinkTextCursor{
+        from{border-right-color:rba(255,255,255,.75)}
+        to{border-right-color: transparent;}
+    }
+</style>
+
+<div >
+    <p class="introMessage anim-typewriter" id="intro">
+        Hi! Welcome to Terminal Souls! Please enjoy the title screen since it is the only thing that is developed right now...
+    </p>
+    
+    <button class = "button" id="loadTerminalSouls" onclick="loadStartscreen()">
+        Click here
+    </button>
+</div>
+
+<div class="container">
+    <div class="titleScreen" id="title">
+        <pre>
+        ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗         ███████╗ ██████╗ ██╗   ██╗██╗     ███████╗
+        ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║         ██╔════╝██╔═══██╗██║   ██║██║     ██╔════╝
+           ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║         ███████╗██║   ██║██║   ██║██║     ███████╗
+           ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║         ╚════██║██║   ██║██║   ██║██║     ╚════██║
+           ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗    ███████║╚██████╔╝╚██████╔╝███████╗███████║
+           ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝    ╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+        </pre>
+        <div>
+            <button class="button" onclick="window.location.href = '/LabNotebook/souls/game.html'">
+                Start
+            </button>
+        </div>
+        <button class="button" id="abtTGame" onclick="showParagraph()">
+            About this Nonexistent Game
+        </button>
+        
+        <div id="paragraph">
+            <p>
+                    This is a recreation of title screen of Dark Souls. A brutally hard game that is extremely fun to play, with over 100 hours invested in this game I am excited to recreate parts of it in this project.
+                Check out some videos of people having lots of fun with this game:
+                    <a href="https://www.youtube.com/watch?v=5SaW0oKTisk&t=52s">People having jolly good fun with Dark Souls 1</a>
+                If you are having trouble with the game:
+                    <a href="https://www.thegamer.com/dark-souls-tips-beginners/"> Get Better </a>
+            </p>
+        </div>
+        <div id="startParagraph">
+            Read the first line. There is nothing else developed because Matthew has procracinated this assignment for too long. 
+        </div>
+    </div>
+</div>
+<script>
+    var div = document.getElementById("paragraph");
+    function showParagraph()
+    {
+        document.getElementById("startParagraph").style.display = "none";
+        document.getElementById("paragraph").style.display = "block";
+    }
+    function changeParagraph()
+    {
+        document.getElementById('paragraph').style.display="none";
+        document.getElementById('startParagraph').style.display="block";
+    }
+    function loadStartscreen()
+    {
+        document.getElementById("title").style.display="block";
+        document.getElementById("intro").style.display="none";
+        document.getElementById("loadTerminalSouls").style.display="none";
+    }
+</script>
