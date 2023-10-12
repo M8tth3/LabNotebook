@@ -9,6 +9,7 @@ html{
 }
 .titleScreen
 {
+    animation: fadeIn 3s;
     font-size: 1.6em;
     text-align:center;
     color: white;
@@ -91,4 +92,12 @@ html{
 @keyframes blinkTextCursor{
     from{border-right-color:rba(255,255,255,.75)}
     to{border-right-color: transparent;}
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
