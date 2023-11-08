@@ -13,9 +13,10 @@ type: tangibles
 
 
 ## Favorite Commits
-### Commit History
+[My Commit history :)](https://github.com/M8tth3/ramjiJarmi/actions?query=actor%3AM8tth3)
+
 <img src="/LabNotebook/images/commitHistory1.png">
-> These commits are for interaction between the frontend and the backend
+> These are some of my favorite commits are for interaction between the frontend and the backend
 <img src="/LabNotebook/images/commit1.png">
 <img src="/LabNotebook/images/customizationCode.png">
 <img src="/LabNotebook/images/commit2.png">
@@ -25,6 +26,8 @@ type: tangibles
 ## What I want to improve 
 - Ability to load progress after closing the tab
 - Error with upgrade screen
+- make the settings option do something
+- Make the character image during the boss battle change
 - Change the cmd logic
 
 ## Struggles:
@@ -78,3 +81,7 @@ type: tangibles
 > I was incorrect because redundancy could act as a backup to ensure video files are not lost. The answer would be B because the full-quality original versions of videos would be lost if lossy compression is used.
 <img src="/LabNotebook/images/Quiz/17.png">
 > The answer would be to have a larger number of perspectives reflected in encyclopedia content because user's can edit articles and provide input across the web.
+
+
+## Memories
+> Some of my best memories this trimester were staying up the night before and finishing up our project before the live review. There would always be lots of fun bugs that we would have to google/chatgpt to fix, but the end result was always worth it. The most satisfying moment for me personally was when I got the PUT request working. I was so relieved after solving the CORS error and seeing the console message "PUT request successful". Probably the most rewarding experience for me the entire tri. Throughout this trimester I gained lots of experience with objects, especially during the passion project which required us to make a player object that would have stats. Since I was DevOps, I also had to check out the backend and how it worked, so I gained experience with classes there as well. I learned the importance of comments when I had to chatgpt a ton of the backend to understand it, and when it was a nightmare to look for code in the frontend. In the future, I want to gain more experience with problem-solving algorithms and data structures like binary trees.  
