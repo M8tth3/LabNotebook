@@ -13,7 +13,9 @@ type: tangibles
 
 
 ## Favorite Commits
-[My Commit history :)](https://github.com/M8tth3/ramjiJarmi/actions?query=actor%3AM8tth3)
+[Commits](https://github.com/M8tth3/ramjiJarmi/actions?query=actor%3AM8tth3++)
+
+[My Commit history :)](https://github.com/M8tth3?tab=overview&from=2023-11-01&to=2023-11-08)
 
 <img src="/LabNotebook/images/commitHistory1.png">
 > These are some of my favorite commits are for interaction between the frontend and the backend
@@ -84,4 +86,4 @@ type: tangibles
 
 
 ## Memories
-> Some of my best memories this trimester were staying up the night before and finishing up our project before the live review. There would always be lots of fun bugs that we would have to google/chatgpt to fix, but the end result was always worth it. The most satisfying moment for me personally was when I got the PUT request working. I was so relieved after solving the CORS error and seeing the console message "PUT request successful". Probably the most rewarding experience for me the entire tri. Throughout this trimester I gained lots of experience with objects, especially during the passion project which required us to make a player object that would have stats. Since I was DevOps, I also had to check out the backend and how it worked, so I gained experience with classes there as well. I learned the importance of comments when I had to chatgpt a ton of the backend to understand it, and when it was a nightmare to look for code in the frontend. In the future, I want to gain more experience with problem-solving algorithms and data structures like binary trees.  
+> Some of my best memories this trimester were staying up the night before and finishing up our project before the live review. There would always be lots of fun bugs that we would have to google/chatgpt to fix, but the end result was always worth it. The most satisfying moment for me personally was when I got the PUT request working. I was so relieved after solving the CORS error and seeing the console message "PUT request successful". Probably the most rewarding experience for me the entire tri. Throughout this trimester I gained lots of experience with objects, especially during the passion project which required us to make a player object that would have stats. Since I was DevOps, I also had to check out the backend and how it worked, so I gained experience with classes there as well. I learned the importance of comments when I had to chatgpt a ton of the backend to understand it, and when it was a nightmare to look for code in the frontend. In the future, I want to gain more experience with problem-solving algorithms and data structures like binary trees. Individual lessons were also pretty cool beans. 
